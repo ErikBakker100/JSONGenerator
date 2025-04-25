@@ -1,0 +1,8 @@
+Make sure Python is installed.
+Installeer PyQt5: Python -m pip install PyQt5
+Installeer pyserial: Python -m pip install pyserial
+Run the program: Python SendJson.py
+
+generate a .exe file:
+pip install pyinstaller
+pyinstaller --onefile --windowed SendJson.py
